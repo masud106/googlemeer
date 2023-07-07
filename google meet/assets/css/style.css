@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+section{
+    padding: 2rem 5%;
+}
+nav{
+    padding: 1.5rem 1.5%;
+}
+.navbar-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navbar-logo{
+    flex: 1 1 30rem;
+}
+.nav-img{
+    align-items: center;
+    display: flex;
+}
+.navbar-logo a{
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-left: 8px;  
+    font-weight: 300;
+    color: black;
+}
+.navbar-content{
+    flex: 1 1 20rem;
+    display: flex;
+     justify-content: end;
+    align-items: center;
+}
+.navbar-content p{
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-right: 10px;
+}
+.navbar-content i{
+    font-size: 1.5rem;
+   width: 4.5rem;
+   height: 4.5rem;
+    padding: 15px 15px;
+    margin-left: 5px;
+    border-radius: 50%;
+   transition: .5s;
+   color: black;
+}
+.navbar-content i:hover{
+    background-color:rgba(0,0,0,.2);
+}
+.navbar-content img{
+    width: 4rem;
+    margin-left: 5px;
+}
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 15rem;
+    gap: 10rem;
+}
+.about-content{
+    flex: 1 1 30rem;
+}
+.about-content h1{
+    font-size: 4rem;
+    font-weight: 400;
+    padding: 1rem 0rem;
+}
+.about-content p{
+    font-size: 2rem;
+    color: rgba(0,0,0,.5);
+}
+.margin-top{
+    margin-top: 70px;
+}
+hr{
+    margin-top: 50px;
+}
+.margin-top a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    text-transform: capitalize;
+    background-color: #1a73e8;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.margin-top input{
+    margin-left: 50px;
+    padding: 15px 15px;
+    border: 1.5px solid #1a73e8;
+    border-radius: 5px;
+}
+.color{
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #1a73e8;
+
+ }
+
+.about-img{
+    flex: 1 1 25rem;
+    text-align: center;
+}
+.about-img img{
+    width: 35rem;
+    padding: 1.5rem;
+
+}
+.about-img h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 1rem 0rem;
+}
+.about-img p{
+    font-size: 1.5rem;
+}
+.about-img a{
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+
+
+
